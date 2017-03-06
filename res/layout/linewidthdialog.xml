@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content" android:padding="20dp">
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/linewidthcolon"
+                android:id="@+id/textView" android:layout_gravity="center_vertical" android:singleLine="false"/>
+        <SeekBar
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/l_lineWidthBar" android:layout_gravity="center" android:layout_marginLeft="10dp"
+                android:max="14" android:progress="5" android:layout_marginRight="10dp" android:focusable="true"
+                android:focusableInTouchMode="true" android:indeterminate="false"/>
+    </LinearLayout>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/l_lineWidthText" android:layout_gravity="center_horizontal" android:layout_marginTop="10dp"
+            android:paddingBottom="20dp"/>
+</LinearLayout>

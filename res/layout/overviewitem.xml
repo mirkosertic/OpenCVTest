@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="horizontal"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content" android:padding="10dp">
+
+    <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/i_imagepreview" android:adjustViewBounds="false" android:scaleType="fitCenter"/>
+    <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" android:layout_gravity="center"
+            android:layout_margin="5dp">
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" android:weightSum="10">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/createdon"
+                    android:id="@+id/textView" android:layout_weight="3" android:singleLine="false"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New Text"
+                    android:id="@+id/i_createdon" android:layout_weight="7"/>
+        </TableRow>
+        <TableRow
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" android:weightSum="10">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/lastmodified"
+                    android:id="@+id/textView2" android:layout_weight="3" android:singleLine="false"/>
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New Text"
+                    android:id="@+id/i_lastmodified" android:layout_weight="7"/>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

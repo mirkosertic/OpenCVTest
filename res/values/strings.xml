@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Android OpenCVTest</string>
+    <string name="new_drawing">New</string>
+    <string name="color">Color</string>
+    <string name="undo">Revert</string>
+    <string name="selectcolor">Choose Color</string>
+    <string name="prev">Prev. Drawing</string>
+    <string name="next">Next Drawing</string>
+    <string name="delete">Delete</string>
+    <string name="linewidth">Line width</string>
+    <string name="sketchmode">Sketch Mode</string>
+    <string name="cadmode">CAD Mode</string>
+    <string name="takephoto">Take a photo</string>
+    <string name="share">Share</string>
+    <string name="sharewith">Share with</string>
+    <string name="emptylistinformation">Nothing to show yet</string>
+    <string name="createdon">Created on</string>
+    <string name="lastmodified">Last modified</string>
+    <string name="emptydrawing">Nothing to share</string>
+    <string name="linewidthcolon">Line width:</string>
+    <string name="ok">Ok</string>
+    <string name="cancel">Cancel</string>
+</resources>
